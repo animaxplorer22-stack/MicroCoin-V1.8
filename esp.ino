@@ -1,35 +1,3 @@
-/*
-  MICROCORE (MCX) ESP32 MINER v8.0 — MAINNET READY
-  Hardware: ESP32 (520KB RAM, 4MB+ Flash)
-  
-  FULL FEATURES:
-  - Real ECDSA secp256k1 signatures (mbedtls 3.x)
-  - 10 Level System (1,000 MCX per level)
-  - Temporary + Permanent Towers
-  - Gossip Discovery with Peer Caching (SPIFFS)
-  - EEPROM storage for stake, rewards, blocks, level
-  - Per-level block intervals (40s to 7s)
-  - Uptime tracking with daily reset
-  - Slashing handling (10% loss)
-  - Remote control (start/stop/restart)
-  - Block redistribution support
-  - Global reward pools support
-  - Auto-reconnect with exponential backoff
-  
-  *** FIXES IN v8.0 ***
-  - Fixed mbedtls API for ESP32 3.x
-  - Proper ECDSA secp256k1 signing
-  - Fixed WebSocket reconnection
-  - Added proper error handling
-  - Memory optimized
-  
-  Instructions:
-  1. Install ESP32 board support in Arduino IDE
-  2. Install libraries: WebSockets, ArduinoJson, mbedtls (built-in)
-  3. Edit WIFI_SSID, WIFI_PASSWORD, USERNAME, PRIVATE_KEY_HEX below
-  4. Set YOUR_SERVER_IP in BOOTSTRAP_NODES
-  5. Upload to ESP32
-*/
 
 #include <WiFi.h>
 #include <WebSocketsClient.h>
