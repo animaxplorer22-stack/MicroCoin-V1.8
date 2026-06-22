@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3
 
 #include <EEPROM.h>
 #include <avr/wdt.h>
