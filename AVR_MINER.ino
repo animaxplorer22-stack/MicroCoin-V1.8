@@ -1,43 +1,4 @@
-/*
-  MICROCORE (MCX) AVR MINER v7.0 — MAINNET READY
-  Hardware: Arduino Uno, Nano, Mega (2KB RAM compatible)
-  
-  FULL FEATURES:
-  - 10 Level System (1,000 MCX per level)
-  - Temporary + Permanent Towers
-  - Gossip Discovery with Peer Caching
-  - djb2 Hash Signatures (8-char hex)
-  - Uptime Tracking with Daily Reset
-  - Slashing Protection (10% loss)
-  - Auto-Slashing (2.5s signing window)
-  - Block Redistribution Support
-  - Global Reward Pools
-  - Remote Control (start/stop/restart)
-  - EEPROM Persistence (stake, rewards, blocks, level)
-  - LED Status Indicators
-  - Re-registration on failure
-  - Missed block tracking
-  - Consecutive miss detection
-  
-  MAINNET RULES:
-  - 10 validators per block minimum
-  - 2.5 second signing window
-  - 10% slash rate for missed signatures
-  - 5 slashes = permanent ban
-  - 30 second uptime ping interval
-  - djb2 hash for AVR (8-char hex)
-  - Level-specific block intervals (40s to 7s)
-  - Stake must be >= 1,000 MCX per level
-  
-  FIXES IN v7.0:
-  - Full mainnet compliance
-  - All network rules enforced
-  - Complete feature set
-  - Robust error handling
-  - Memory optimized for 2KB RAM
-  
-  Upload to Arduino Uno/Nano/Mega
-*/
+
 
 #include <EEPROM.h>
 #include <avr/wdt.h>
