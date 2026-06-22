@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 """
-MICROCORE (MCX) WIFI BRIDGE v7.0 — MULTI-MINER SUPPORT
-Detects multiple Arduino/AVR miners on different ports
-Onboards all connected miners automatically
-Gossip Discovery | Peer Caching | Auto Failover
 
 Run: python3 wifi_bridge.py
 
