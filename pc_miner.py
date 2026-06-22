@@ -1,21 +1,4 @@
 #!/usr/bin/env python3
-"""
-MICROCORE (MCX) PC MINER v6.3 — COMPLETE FIXED
-Based on successful Arduino Uno djb2 hash implementation
-Real ECDSA secp256k1 | Gossip Discovery | Peer Caching | No DNS Required
-10 Levels (1,000 MCX per level) | Temporary + Permanent Towers
-Remote Control | Uptime Tracking | Slashing Handling | Block Redistribution
-
-*** FIXES ***
-- Added djb2 hash support (matches Arduino Uno)
-- Fixed registration signature to match node verification
-- Fixed block signature to use djb2 hash
-- Added multi-miner support
-- Fixed WebSocket reconnection logic
-- Added proper stake/level tracking
-
-Run: python pc_miner.py
-"""
 
 import asyncio
 import json
