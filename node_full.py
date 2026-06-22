@@ -1,24 +1,4 @@
 #!/usr/bin/env python3
-"""
-MICROCORE (MCX) COMPLETE NODE v21.9 — AVR FIXED (djb2 Hash)
-Proof of Masked Authorization (PoMA) Consensus
-10 Levels | 1,000 MCX per level | Separate Pools per Level
-Gossip Discovery | Peer Caching | No DNS Required
-Block Reward: 3 MCX | Total Cap: ~546.84M MCX
-Temporary + Permanent Towers | 2.5s Signing Window | 10 Validators per Block
-
-*** FIXED IN v21.9 ***
-- AVR/UNO miners use djb2 hash (8-char hex) - FITS IN 2KB RAM!
-- NO STRIPE - completely removed
-- All fees in MCX
-- Full DEX with Quickswap (Polygon) + LI.FI + THORChain
-- Full DUCO TXID verification
-- Full BTC/ETH/USDC payment verification
-
-Usage:
-  python node_full.py --genesis --username YOUR_NAME
-  python node_full.py --peer IP:PORT --username YOUR_NAME
-"""
 
 import asyncio
 import json
